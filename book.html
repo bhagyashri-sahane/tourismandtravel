@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<!--head-->
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    book page
+  </title>
+  <link href="resources/style/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<!--body-->
+
+<body>
+  <!--header-->
+  <header>
+   
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+          <a class="nav-link active" aria-current="page" href="about.html">about</a>
+          <a class="nav-link active" aria-current="page" href="book.html">Book</a>
+          <a class="nav-link" href="service.html">srvices</a>
+          <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <h1>Dreamy Destination</h1>
+  </header>
+  <!--first section-->
+  <div>
+    <h1>
+      Book Online
+    </h1>
+    <img src="resources/images/book.jpg" id="img">
+    <p id="txt-1">
+      We understand the importance of transparency, which is why we provide you with all the necessary pricing and
+      availability information upfront.
+      Check the rates, view the availability calendar, and take advantage of any special discounts or promotions that
+      may be available for your chosen dates.
+    </p>
+  </div>
+  <center>
+  <section class="book">
+   
+    <h2 id="txt">YOU DESERVE A VACATION</h2>
+    <p id="txt">We are here to satisfy all of your travel needs 🏖!</p>
+    <!--booking form-->
+    <div>
+    <form id="form"></form>
+      <p>selct a prefix :
+        <select id="select" name="prfix">
+          <option value="">-- Select a prefix --</option>
+          <option value="Mr">Mr</option>
+          <option value="Mrs">Mrs</option>
+
+        </select>
+      </p>
+        <label for="mail" class="label">email</label>
+        <input type="email" id="mail">
+        <br>
+      <label for="name" class="label">name:</label>
+      <input type="text" value="fist name" id="name">
+
+      <input type="text" value="last name" id=" name">
+      
+      <br>
+      <label for="phone" class="label">phone Number :</label>
+      <input type="number" value="area code" id="number">
+      
+     
+      <!--address-->
+      <br>
+      <label for="address" class="label">Address :</label>
+      <input type="text" id="address">
+      <br>
+      <!--Booking date-->
+      <lable for="booking-date" class="label">Booking date :</lable>
+      <input type="date" id="booking-date">
+    </form>
+  </div>
+
+ 
+  </section>
+</center>
+  <div class="packages">
+    <h2>
+       <!--packages-->
+        Popular India Tour Packages
+    </h2>
+    <a  href="#">
+      Andaman Tour Packages
+    </a><br>
+    <a href="#">Ladakh Tour Packages</a>
+    <br>
+    <a  href="#">Himachal Tour Packages</a>
+    <br>
+    <a  href="#">Kerala Tour Packages</a>
+    <br>
+    <a  href="#">Goa Tour Package</a>
+    <br>
+    <a  href="#">North East Tour Packages</a>
+    <br>
+    <a  href="#">South India Tour Packages</a>
+    <br>
+    <a  href="#">Bhutan Tour Packages</a>
+    <br>
+    <a  href="#">Rajasthan Tour Packages</a>
+    <br>
+    <a  href="#">view</a>
+    
+  </div>
+  <div class="images">
+    <div id="images-item">
+    <img src="resources/images/beach2.avif">
+     
+    <img src="resources/images/kerla.avif">
+    <img src="resources/images/andaman.avif">
+   
+    <img src="resources/images/ladakh.avif">
+    <img src="resources/images/himachal.avif">
+    <img src="resources/images/northeast.avif">
+
+  </div>
+</body>
+
+</html>
