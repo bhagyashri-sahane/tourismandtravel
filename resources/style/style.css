@@ -38,7 +38,7 @@ header{
     padding: 32px;
 }
 .image-container{
-    
+    position: relative;
     display: inline-block;
   }
   .text-overlay {
@@ -316,6 +316,7 @@ header{
     }
     nav{
       font-size: 12px;
+      width: 100%;
     }
     div{
       width: auto;
@@ -332,7 +333,7 @@ header{
       font-size: 12px;
     }
     nav{
-      font-size: 12px;
+      font-size: 50px;
       width: 100%;
     }
   }
@@ -347,6 +348,73 @@ header{
       font-size: 12px;
     }
     nav{
-      font-size: 12px;
+      font-size: 30px;
     }
   }
+
+  /* Default navigation styles */
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu li {
+  margin-left: 15px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive navigation styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    font-size: 100px;
+  }
+
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 10px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .menu.active li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
