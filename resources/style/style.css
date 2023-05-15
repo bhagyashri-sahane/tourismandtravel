@@ -38,7 +38,7 @@ header{
     padding: 32px;
 }
 .image-container{
-    position: relative;
+    
     display: inline-block;
   }
   .text-overlay {
@@ -317,6 +317,9 @@ header{
     nav{
       font-size: 12px;
     }
+    div{
+      width: auto;
+    }
   }
   
   /* Styles for screens between 601px and 900px wide */
@@ -330,6 +333,7 @@ header{
     }
     nav{
       font-size: 12px;
+      width: 100%;
     }
   }
   
