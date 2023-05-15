@@ -324,6 +324,11 @@ header{
     .image-container{
       position: relative;
     }
+      header{
+          size:5px;
+          width:100%;
+      }
+      
    
   }
   
