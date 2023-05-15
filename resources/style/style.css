@@ -324,6 +324,9 @@ header{
     .image-container{
       position: relative;
     }
+    section{
+      size: 50px;
+    }
   }
   
   /* Styles for screens between 601px and 900px wide */
