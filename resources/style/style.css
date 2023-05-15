@@ -306,8 +306,14 @@ header{
 
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 480px) {
     /* CSS rules for screens up to 600px */
+    body {
+      font-size: 12px;
+    }
+    footer{
+      font-size: 12px;
+    }
   }
   
   /* Styles for screens between 601px and 900px wide */
