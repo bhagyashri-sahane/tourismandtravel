@@ -314,14 +314,35 @@ header{
     footer{
       font-size: 12px;
     }
+    nav{
+      font-size: 12px;
+    }
   }
   
   /* Styles for screens between 601px and 900px wide */
   @media (min-width: 601px) and (max-width: 900px) {
     /* CSS rules for screens between 601px and 900px */
+    body {
+      font-size: 12px;
+    }
+    footer{
+      font-size: 12px;
+    }
+    nav{
+      font-size: 12px;
+    }
   }
   
   /* Styles for screens above 901 pixels wide */
   @media (min-width: 901px) {
     /* CSS rules for screens above 901px */
+    body {
+      font-size: 12px;
+    }
+    footer{
+      font-size: 12px;
+    }
+    nav{
+      font-size: 12px;
+    }
   }
