@@ -68,7 +68,7 @@ header{
     background-color: azure;
   }
   .footer-home{
-    font-size: 5em;
+   
     background-color: aquamarine;
     text-align: center;
     margin: 10px;
@@ -304,4 +304,18 @@ header{
     background-color: #000;
     color: white;
 
+  }
+
+  @media (max-width: 600px) {
+    /* CSS rules for screens up to 600px */
+  }
+  
+  /* Styles for screens between 601px and 900px wide */
+  @media (min-width: 601px) and (max-width: 900px) {
+    /* CSS rules for screens between 601px and 900px */
+  }
+  
+  /* Styles for screens above 901 pixels wide */
+  @media (min-width: 901px) {
+    /* CSS rules for screens above 901px */
   }
