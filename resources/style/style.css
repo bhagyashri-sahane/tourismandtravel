@@ -11,6 +11,7 @@ nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: right;
     margin: 20px;
+    font-size: smaller;
 }
 
 header{
@@ -286,12 +287,14 @@ header{
   }
   .login-div p{
       font-weight: bold;
+     
   }
   .login-div img{
     background-color: aqua;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    margin-left: 150px;
   }
   .section-container-login {
     display: flex;
@@ -354,7 +357,7 @@ header{
       font-size: 12px;
     }
     footer{
-      font-size: 12px;
+      font-size: 50px;
     }
     nav{
       font-size: 30px;
@@ -366,7 +369,7 @@ header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #333;
+ 
   color: #fff;
   padding: 10px;
 }
@@ -393,6 +396,10 @@ header nav {
 
 .menu li {
   margin-left: 15px;
+  font-size: smaller;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 .menu a {
