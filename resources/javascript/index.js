@@ -44,25 +44,25 @@ function showImage() {
   }
 // 2 text-overlay
  function displayContent2() {
-    var elements = document.getElementsByClassName('text-overlay2');
-    for (var i = 0; i < elements.length; i++) {
-      elements[i].textContent =' “The journey of a thousand miles begins with a single step.” ';
+    var elements2 = document.getElementsByClassName('text-overlay2');
+    for (var i = 0; i < elements2.length; i++) {
+      elements2[i].textContent =' “The journey of a thousand miles begins with a single step.” ';
     }
   }
   
-  var textOverlays = document.getElementsByClassName('text-overlay2');
+  var textOverlays2 = document.getElementsByClassName('text-overlay2');
   for (var i = 0; i < textOverlays.length; i++) {
-    textOverlays[i].addEventListener('mouseover', displayContent);
+    textOverlays2[i].addEventListener('mouseover', displayContent2);
   }
 
  function displayContent3() {
-    var elements = document.getElementsByClassName('text-overlay3');
-    for (var i = 0; i < elements.length; i++) {
-      elements[i].textContent = '"Sometimes the most productive thing you can do is relax".';
+    var elements3 = document.getElementsByClassName('text-overlay3');
+    for (var i = 0; i < elements3.length; i++) {
+      elements3[i].textContent = '"Sometimes the most productive thing you can do is relax".';
     }
   }
   
-  var textOverlays = document.getElementsByClassName('text-overlay3');
+  var textOverlays3 = document.getElementsByClassName('text-overlay3');
   for (var i = 0; i < textOverlays.length; i++) {
-    textOverlays[i].addEventListener('mouseover', displayContent);
+    textOverlays3[i].addEventListener('mouseover', displayContent3);
   }
