@@ -42,3 +42,27 @@ function showImage() {
   for (var i = 0; i < textOverlays.length; i++) {
     textOverlays[i].addEventListener('mouseover', displayContent);
   }
+// 2 text-overlay
+ function displayContent2() {
+    var elements = document.getElementsByClassName('text-overlay2');
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].textContent =' “The journey of a thousand miles begins with a single step.” ';
+    }
+  }
+  
+  var textOverlays = document.getElementsByClassName('text-overlay2');
+  for (var i = 0; i < textOverlays.length; i++) {
+    textOverlays[i].addEventListener('mouseover', displayContent);
+  }
+
+ function displayContent3() {
+    var elements = document.getElementsByClassName('text-overlay3');
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].textContent = '"Sometimes the most productive thing you can do is relax".';
+    }
+  }
+  
+  var textOverlays = document.getElementsByClassName('text-overlay3');
+  for (var i = 0; i < textOverlays.length; i++) {
+    textOverlays[i].addEventListener('mouseover', displayContent);
+  }
