@@ -1,5 +1,5 @@
-let msg = alert("Thank You for visiting");
-msg=document.write;
+//let msg = alert("Thank You for visiting");
+//msg=document.write;
 
 /*let item = document.getElementsById('heading3')
 item=document.write;
