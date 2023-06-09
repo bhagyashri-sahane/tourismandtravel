@@ -51,7 +51,7 @@ function showImage() {
   }
   
   var textOverlays2 = document.getElementsByClassName('text-overlay2');
-  for (var i = 0; i < textOverlays.length; i++) {
+  for (var i = 0; i < textOverlays2.length; i++) {
     textOverlays2[i].addEventListener('mouseover', displayContent2);
   }
 
@@ -63,6 +63,6 @@ function showImage() {
   }
   
   var textOverlays3 = document.getElementsByClassName('text-overlay3');
-  for (var i = 0; i < textOverlays.length; i++) {
+  for (var i = 0; i < textOverlays3.length; i++) {
     textOverlays3[i].addEventListener('mouseover', displayContent3);
   }
